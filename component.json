@@ -5,6 +5,7 @@
     "requirejs": null,
     "jquery": null,
     "underscore": null,
-    "backbone": null
+    "backbone": null,
+    "backbone.marionette": "~1.0.2"
   }
 }

@@ -3,8 +3,23 @@ require.config({
     "jquery": "vendor/jquery/jquery",
     "backbone-amd": "vendor/backbone-amd/backbone",
     "underscore-amd": "vendor/underscore-amd/underscore",
-    "underscore": "vendor/underscore-amd/underscore",
-    "backbone": "vendor/backbone-amd/backbone"
+    "backbone.marionette": "vendor/backbone.marionette/lib/backbone.marionette",
+    "backbone": "vendor/backbone/backbone",
+    "underscore": "vendor/underscore/underscore"
+  },
+  "shim": {
+    "underscore": {
+      "exports": "_",
+      "path": "vendor/underscore/underscore"
+    },
+    "backbone": {
+      "exports": "Backbone",
+      "deps": [
+        "underscore",
+        "jquery"
+      ],
+      "path": "vendor/backbone/backbone"
+    }
   }
 });
 
