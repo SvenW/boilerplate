@@ -1,8 +1,6 @@
 require.config({
   "paths": {
     "jquery": "vendor/jquery/jquery",
-    "backbone-amd": "vendor/backbone-amd/backbone",
-    "underscore-amd": "vendor/underscore-amd/underscore",
     "backbone.marionette": "vendor/backbone.marionette/lib/backbone.marionette",
     "backbone": "vendor/backbone/backbone",
     "underscore": "vendor/underscore/underscore"
