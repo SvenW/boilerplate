@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "grunt": ">= 0.4.1",
-    "bower": ">= 0.8.6"
+    "bower": ">= 0.8.6",
+    "requirejs": ">= 2.1.5"
   },
   "engines": {
     "node": "0.6.12",
